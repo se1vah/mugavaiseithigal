@@ -1,0 +1,23 @@
+.top-menubar{
+    background-color: rebeccapurple;
+}
+.top-menubar ul {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.top-menubar ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.top-menubar ul li:hover{
+    background-color: rgb(68, 22, 114);
+}
